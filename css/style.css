@@ -1026,6 +1026,9 @@ h6 {
   display: flex;
 }
 .top__left img {
+  width: 30%;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding-top: 20px;
   padding-left: 20px;
 }
@@ -1204,6 +1207,7 @@ h6 {
 .price__box {
   background: #161616;
   text-align: center;
+  margin-bottom: 25px;
 }
 .price__box:hover {
   background-color: #6ac9b3;
